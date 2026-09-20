@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Potato Pancakes are a common dish in Lithuania. In this page, we'll learn some facts and how to make potato pancakes" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Main Course 1: Cepelinai</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="shortcut icon" href="../images/flag.jpg" type="image/x-icon"> 
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/layout.css">
+</head>
+
+<body>
+    <div class="body-starter"></div>
+        <header>
+            <!--This is the navegation bar-->
+            <nav class="navbar fixed-top navbar-expand-sm navbar-light shadow" style="background-color: #006a44;">
+                <div class="container">
+                    <!--country and logo-->
+                    <a 
+                        href="domas_index.html" class="navbar-brand mb-0 h1" style="font-family: 'Playfair Display', serif; font-style: italic; font-size: 40px;" title = "Lithuania - Lithuanian home page" ><img class="d-inline-block align-top" src="../images/flag.jpg" alt="Lithuanian flag" width="50" height="50"/>
+                        Lithuania 
+                    </a>
+                    <!--nav bar toggler for small screens-->
+                    <botton 
+                    class="navbar-toggler" 
+                    type="button" 
+                    data-bs-toggle="collapse" 
+                    data-bs-target="#navbarNav" 
+                    aria-controls="navbarNav" 
+                    aria-expanded="false" 
+                    aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </botton>
+                    <!--this div is for the bottons of the navbar-->
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto nav-size d-flex gap-3">
+                            <li class="nav-item active">
+                                <a href="../main-page.html" class="nav-link btn active" title = "Home"> 
+                                    Home
+                                </a>
+                            </li>
+                            <li class="nav-item active">
+                                <a href="#listofingredients" class="nav-link btn active" title = "List of ingredients section"> 
+                                    Ingredients
+                                </a>
+                            </li>
+                            <li class="nav-item active">
+                                <a href="#cooking" class="nav-link btn active" title = "Cooking section"> 
+                                    Cooking
+                                </a>
+                            </li>
+                            <li class="nav-item active">
+                                <a href="#culture" class="nav-link btn active" title = "Cultural imortance of the starter section"> 
+                                    Cultural importance
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!--starting the hero section-->
+            <div class="p-4 my-2 text-white rounded-3 bc-main1-lithuania">
+                <div class="container-fluid blur">
+                    <h1 class="display-2 fw-bold">Cepelinai</h1>
+                    <p class="col-md-8 lead">
+                        Cepelinai is a truly classic dish in Lithuania.
+                        It originates from Prussia and the first sightings of this recipe
+                        date back to the 1930's, during the wars, however, the dish only became
+                        popular post-war; its thought that its popularity grew due to the over-abundance of potatoes
+                        during the harsh winter. The dish consists of mashed potato, which encapsulates a juicy meaty interior.
+                        This is then served with a sauce on the side and (you might have guessed it), sour cream.
+                </div>
+            </div>
+        </header>
+    </div>
+    <main>
+        <div class="p-4">
+            <div class="container-fluid">
+                <h3 class="display-6 fw-bold">Fun fact about cepelinai!</h3>
+                <p>
+                   The dish is named after the inventor of the zeppelin, Count Ferdinand von Zeppelin,
+                    because of their resemblant shape to the airship. They were originally called 
+                    didžkukuliai which, if you split the word up, translates to "big (didž) dumplings (kukuliai)"
+                </p>
+            </div>
+            <div class="container my-5 text-center">
+                <img src="../images/cepelinai.jpg" class="img-thumbnail" alt="Cepelinai" title="Main: Cepelinai">
+                <ol>
+                    <li id="listofingredients" class="display-6 fw-bold text-start">
+                        <h4 class="display-6 fw-bold text-start">List of ingredients</h4>
+                        <ul class="fw-normal nd-item">
+                            <li type="disc">
+                                500g of beef or pork mince
+                            </li>
+                            <li type="disc">
+                                3 small onions
+                            </li>
+                            <li type="disc">
+                                2 garlic cloves
+                            </li>
+                            <li type="disc">
+                                1 medium egg
+                            </li>
+                            <li type="disc">
+                                150g of smoked pancetta
+                            </li>
+                            <li type="disc">
+                                2.5kg of potatoes
+                            </li>
+                            <li type="disc">
+                                2 tablespoons of potato starch
+                            </li>
+                            <li type="disc">
+                                lemon juice
+                            </li>
+                            <li type="disc">
+                                a handful of dill
+                            </li>
+                            <li type="disc">
+                                salt and pepper to taste
+                            </li>
+                            <li type="disc">
+                                cooking oil
+                            </li>
+                            <li type="disc">
+                                (Optional) sour cream, to serve
+                            </li>
+                        </ul>
+                    </li>
+
+                    <hr>
+
+                    <li id="cooking" class="display-6 fw-bold text-start">
+                        <h4 class="display-6 fw-bold text-start">Cooking</h4>
+                        <ul>
+                            <li type="disc">
+                                
+                                <ol type="circle" class="fw-normal nd-item">
+                                    <li>
+                                        Take your onions and dice them. Chop the garlic up as well. Then cook them over a medium heat 
+                                        in a frying pan using cooking oil, until they've softened. Then, take half of it from the pan and
+                                        put it in a bowl to cool. When its cool, add the mince, egg, salt, and pepper, and mix together.
+                                        Take the rest of the cooked onion and garlic and set aside in another bowl for later. 
+                                    </li>
+                                    <li>
+                                        Take the same pan, heat the remaining oil in it, and fry the pancetta for a few minutes over medium heat.
+                                        When the fat starts to melt, add the onion and garlic that was set aside earlier and cook for about 
+                                        8-10 minutes until golden in color; then remove it from the heat and set it aside for later. 
+                                        This will be the topping of the dish.
+                                    </li>
+                                    <li>
+                                        Take one third of the potatoes, peel them, and chop them into 4 pieces.
+                                        Then put them in a large pan of salted water. Bring this toa  boil, and let it simmer for 15 minutes
+                                        until the potatoes are cooked. Then use a colander to drain the potatoes and leave them to steam-dry
+                                        for around 5 minutes. After that, crush the potatoes as smoothly as you possible can using a potato masher.
+                                    </li>
+                                    <li>
+                                        Take the remaining raw potatoes, peel them, and grate them using a food processor.
+                                        Take these potatoes and squeeze them through a muslin/tea towel over a bowl to rid of as much
+                                        liquid as possible. Once you,ve done that, set the bowl with the liquid aside to let the potato starch
+                                        seperate from the liquid at the bottom of the bowl. Once that is finished, stir in the lemon juice (which 
+                                        will stop the cepelinai from going dark), and add the cooked potato to the raw potato, along with the 2 tablespoons
+                                        of starch. Then, season and mix well. This will be the outer-part of the cepelinai.
+                                    </li>
+                                    <li>
+                                        Assembling the cepelinai is then easy: bring a large pan of salted water to boil; then wet your hands (for easier handling)
+                                         and take the potato mixture and shape them into palm-sized 2cm thin cakes. Then take the meat
+                                        and add it to the cakes, and then encase the meat using the potato mixture and roll until they are
+                                        shaped like large eggs. Last but not least, add them to the simmering water one at a time, and
+                                        cook them for 20-25 minutes. You'll know they're done cooking when they float to the surface.
+                                    </li>
+                                    <li>
+                                        To serve, warm up some of the pancetta, add two cepelinai to a plate, top with the pancetta and some chopped dill,
+                                        and serve with sour cream (if you wish to do so).
+                                    </li>
+                                </ol>
+                               
+                               
+                            </li>
+                        </ul>
+                    </li> 
+                    <hr> 
+                    <li id="culture" class="display-6 fw-bold text-start">          
+                        <h4 class="display-6 fw-bold text-start">Cultural Importance</h4>
+                        <p class="fw-normal nd-item">
+                            This classic dish has evolved from being a simple peasant meal into a well known and treasured dish that has spread
+                        nation-wide. Today, cepelinai aren't just a meal, but a symbol of Lithuanian identity and heritage
+                        </p>
+                    </li>
+                </ol>
+            </div>
+           
+        </div>
+    </main>
+    <footer class="py-4" style="background-color: #006a44; font-size: 20px;">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <a 
+                        href="domas_index.html" class="text-decoration-none text-white mb-0" style="font-family: 'Playfair Display', serif; font-style: italic; font-size: 22px;" title = "Lithuania - Lithuanian home page" ><img class="d-inline-block align-top" src="../images/flagsquare.png" alt="Lithuanian flag" width="30" height="30"/>
+                        Lithuanian Recipes
+                    </a>
+                    <p>Web design project</p>
+                </div>
+                <div class="col col-lg-3">
+                    <h4 class="text-white">Menu</h4>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="../main-page.html" class="text-decoration-none text-dark" title = "Main home"> 
+                                Home
+                            </a>
+                        </li>
+                        <li>
+                            <a href="domas_page_1.html"  class="text-decoration-none text-dark" title = "Recipe for a Lithuanian starter"> 
+                                Starter
+                            </a>
+                        </li>
+                        <li>
+                            <a href="domas_page_2.html" class="text-decoration-none text-dark"  title = "Recipe for a Lithuanian main dish"> 
+                                Main dish I
+                            </a>
+                        </li>
+                        <li>
+                            <a href="domas_page_3.html" class="text-decoration-none text-dark"  title = "Recipe for a Lithuanian main dish"> 
+                                Main dish II
+                            </a>
+                        </li>
+                        <li>
+                            <a href="domas_page_4.html" class="text-decoration-none text-dark"  title = "Recipe for a Lithuanian dessert"> 
+                                Dessert
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col col-lg-4">
+                    <h4 class="text-white">Repices from other countries</h4>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="../Section1-Bolivia/lucero_index.html" class="text-decoration-none text-dark" title = "Bolivia - Bolivian recipes"> 
+                                Bolivia
+                            </a>
+                        </li>
+                        <li>
+                            <a href="../Sections2-Nigeria/index.html"  class="text-decoration-none text-dark" title = "Nigeria - Nigerian recipes"> 
+                                Nigeria
+                            </a>
+                        </li>
+                        <li>
+                            <a href="../Section3-Ireland/irish_home.html"  class="text-decoration-none text-dark" title = "Ireland - Irish recipes"> 
+                                Ireland
+                            </a>
+                        </li>
+                        <li>
+                            <a href="../Section5-Bangladesh/Bangladesh index.html" class="text-decoration-none text-dark"  title = "Blangladesh - Bangladeshi recipes"> 
+                                Bangladesh
+                            </a>
+                        </li>
+                        <li>
+                            <a href="domas_index.html" class="text-decoration-none text-dark"  title = "Lithuania - Lithuanian recipes"> 
+                                Lithuania
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col text-lg-end">
+                    <h4 class="text-white">More useful links</h4>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="https://www.nationalgeographic.com/travel/destination/lithuania" class="text-decoration-none text-dark"  title = "Learn about Lithuania"  target="_blank"> 
+                                Information about Bolivia
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.theflavorvortex.com/international-cooking-food-from-lithuania/" class="text-decoration-none text-dark"  title = "Another weboage with other Lithuanian recipes"  target="_blank"> 
+                                Get to know more recipies from Bolivia
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.tripadvisor.ie/Tourism-g274947-Lithuania-Vacations.html" class="text-decoration-none text-dark"  title = "Things to do in Lithuania"  target="_blank"> 
+                                Things to do in Lithuania
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <div class="d-flex justify-content-bteween">
+                <p>
+                    © 2024 Lithuanian recipes - Domas Rekus. All rights reserved.
+                </p>
+            </div>
+        </div>
+     
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

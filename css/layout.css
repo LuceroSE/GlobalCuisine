@@ -1,0 +1,225 @@
+body{
+    padding-top: 68px;
+    background-color: #e9e9e9;
+    font-family: "Montserrat", sans-serif;
+    font-size: large;
+    color: #2a2a2a;
+    line-height: 30px; 
+    text-align: justify;
+}
+/*making text in the hover bigger than what bootstrap sets it*/
+.lead{
+    font-size: x-large;
+}
+
+/*introductory message before images gallery*/
+.container-fluid{
+    color: black;
+}
+
+/*hover effect on image gallery*/
+.img-thumbnail{
+    border-color: #2a2a2a;
+}
+.accordion-item{
+    background-color: green;
+}
+
+
+/*starter recipe for Nigeria*/
+.bc-chin{
+    background-image: url(../images/chin-chin.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.bc-jollof{
+    background-image: url(../images/jollof-rice.jpg);
+    background-size: cover;
+    background-position: cover;
+}
+
+.bc-egusi{
+    background-image: url(../images/egusi-soup.png);
+    background-size: cover;
+    background-position: cover;
+}
+.bc-puff{
+    background-image: url(../images/puff-puff.jpg);
+    background-size: cover;
+    background-position: cover;
+}
+#leading-p{
+    color: white;
+}
+/*list of ingredients items*/
+.st-item{
+    font-size: x-large;
+    text-align: justify;
+}
+.nd-item{
+    font-size: large;
+    text-align: justify;
+}
+.card-text{
+    font-size: medium;
+}
+/*dividing each section*/
+hr{
+    border: 6px solid gray;
+    box-shadow: 1px 3px 11px -5px #151515;
+}
+
+ol li{
+    padding-top: 30px;
+    font-weight: lighter;
+    font-size: x-large;
+}
+
+em{
+    font-weight: bold;
+}
+
+.home{
+    text-align: center;
+    font-size: xx-large;
+    padding: 5%;
+    font-weight: bold;
+}
+
+.intro{
+    font-size: x-large;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.list-group{
+    padding: 5%;
+}
+
+.lead{
+    font-size: 30px;
+}
+/*might add hover on the navbar*/
+.nav-size{
+    font-size: 20px;
+}
+
+.navbar-nav .nav-link.btn {
+    transition: 0.5s ease; 
+    border-radius: 15px;
+}
+.navbar-nav .nav-link.btn:hover {
+    background-color: #2a2a2a;       
+    color: #f0faff;
+    
+}
+
+
+/*introductory message before images gallery*/
+.bcimage{
+    background-image: url(../images/bolivia-moun.jpg);
+    background-size: cover;
+    background-position: center;
+}
+/*hover effect on image gallery*/
+.img-thumbnail{
+    border-color: #2a2a2a;
+}
+/*end of BOlivia section home page*/
+/*starter recipe*/
+.bc-starter{
+    background-image: url(../images/puca.jpg);
+    background-size: cover;
+    background-position: center;
+}
+/*list of ingredients items*/
+.st-item{
+    font-size: 30px;
+    text-align: justify;
+}
+.nd-item{
+    font-size: 25px;
+    text-align: justify;
+}
+/*dividing each section*/
+hr{
+    border: 6px solid #4a5a40;
+    box-shadow: 1px 3px 11px -5px #151515;
+}
+/*main course 1*/
+.bc-main1{
+    background-image: url(../images/lomo.jpg);
+    background-size: cover;
+    background-position: center;
+}
+/*main course 2*/
+.bc-main2{
+    background-image: url(../images/charque-.jpg);
+    background-size: cover;
+    background-position: center;
+}
+/*dessert*/
+.bc-dessert{
+    background-image: url(../images/chirimoyathumb.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.blur{
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur();
+    background-image: linear-gradient(120deg, rgba(0,0,0,0.2), rgba(255,255,255,0.3));
+    border-radius: 20px;
+    padding: 5px;
+}
+
+/*contact webpage*/ 
+
+.head{
+    background-color: #6a7f9a;
+    border-radius: 5px;
+    margin-top: -60px;
+    -webkit-box-shadow: 10px 10px 33px -10px rgba(38,62,97,1);
+    -moz-box-shadow: 10px 10px 33px -10px rgba(38,62,97,1);
+    box-shadow: 10px 10px 33px -10px rgba(38,62,97,1);
+}
+.e{
+    background-color: rgba(106, 127, 154, 0.5);;
+}
+.bcimage-cont{
+    background-image: url(../images/code.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.bcimage-lithuania{
+    background-image: url(../images/landscape-bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.bc-starter-lithuania{
+    background-image: url(../images/blynai.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.bc-main1-lithuania{
+    background-image: url(../images/cepelinai.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.bc-main2-lithuania{
+    background-image: url(../images/beet.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.bc-dessert-lithuania{
+    background-image: url(../images/zagareliai.jpg);
+    background-size: cover;
+    background-position: center;
+}

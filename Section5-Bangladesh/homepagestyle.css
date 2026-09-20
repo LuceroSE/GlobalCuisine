@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #ffe5d4; /* Light peach background */
+}
+
+header {
+    background-image: url('images/zafor-iqbal-14qFRndVW78-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 1px 1px; /* Reduced padding for smaller header */
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+header h1 {
+    font-size: 3.5em; /* Slightly smaller font size for the header */
+    margin: 0;
+    color: #cc5d4e;
+}
+
+header p {
+    font-size: 1.8em; /* Adjusted font size for description */
+}
+
+#about-Bangladesh {
+    padding: 20px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    max-width: 900px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#about-Bangladesh h2 {
+    font-size: 1.8em;
+    color: #cc5d4e; 
+}
+
+#recipes {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 900px;
+}
+
+#recipes h3 {
+    font-size: 2em;
+    text-align: center;
+    color: #cc5d4e;
+}
+
+.recipe-links {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Layout: 2 images per row on smaller screens */
+    gap: 20px;
+    padding: 0;
+}
+
+.recipe-links a {
+    text-decoration: none;
+    color: #333;
+    text-align: center;
+    display: block;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.recipe-links a:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.recipe-links img {
+    width: 100%;
+    border-radius: 10px;
+    max-height: 200px;
+    object-fit: cover;
+}
+
+.recipe-links p {
+    margin: 10px 0 0;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #cc5d4e;
+    color: white;
+    font-size: 0.9em;
+    margin-top: 20px;
+}
+
+p{
+    padding: 20px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+h3{
+    padding: 20px;
+    padding-top: 0px;
+}

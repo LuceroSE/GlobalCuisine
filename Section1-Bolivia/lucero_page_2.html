@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Pucacapas are one of the many Bolivian pastries. Here we will learn how interesting facts about it, how to prepare it and many things more" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bolivian main course I</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="shortcut icon" href="../images/bolivia.png" type="image/x-icon"> 
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/layout.css">
+</head>
+
+<body>
+    <div class="body-starter"></div>
+        <header>
+            <!--This is the navegation bar-->
+            <nav class="navbar fixed-top navbar-expand-sm navbar-light shadow" style="background-color: #d1c6b1;">
+                <div class="container">
+                    <!--country and logo-->
+                    <a 
+                        href="lucero_index.html" class="navbar-brand mb-0 h1" style="font-family: 'Playfair Display', serif; font-style: italic; font-size: 40px;" title = "Boliva - Bolivian home page" ><img class="d-inline-block align-top" src="../images/bolivia.png" alt="Bolivian flag" width="50" height="50"/>
+                        Bolivia 
+                    </a>
+                    <!--nav bar toggler for small screens-->
+                    <botton 
+                    class="navbar-toggler" 
+                    type="button" 
+                    data-bs-toggle="collapse" 
+                    data-bs-target="#navbarNav" 
+                    aria-controls="navbarNav" 
+                    aria-expanded="false" 
+                    aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </botton>
+                    <!--this div is for the bottons of the navbar-->
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto nav-size d-flex gap-3">
+                            <li class="nav-item active">
+                                <a href="../main-page.html" class="nav-link btn active" title = "Home"> 
+                                    Home
+                                </a>
+                            </li>
+                            <li class="nav-item active">
+                                <a href="#listofingredients" class="nav-link btn active" title = "List of ingredients section"> 
+                                    Ingredients
+                                </a>
+                            </li>
+                            <li class="nav-item active">
+                                <a href="#preprep" class="nav-link btn active" title = "Pre-preparations before cooking section"> 
+                                    Pre-prep
+                                </a>
+                            </li>
+                            <li class="nav-item active">
+                                <a href="#preparation" class="nav-link btn active" title = "Preparationo of the recipe section"> 
+                                    Preparation
+                                </a>
+                            </li>
+                            <li class="nav-item active">
+                                <a href="#cooking" class="nav-link btn active" title = "Cooking section"> 
+                                    Cooking
+                                </a>
+                            </li>
+                            <li class="nav-item active">
+                                <a href="#culture" class="nav-link btn active" title = "Cultural imortance of the starter section"> 
+                                    Cultural importance
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!--starting the hero section-->
+            <div class="p-4 my-2 text-white rounded-3 bc-main1 ">
+                <div class="container-fluid blur">
+                    <h1 class="display-2 fw-bold">Lomo a la paila</h1>
+                    <p class="col-md-8 lead">
+                        Lomo a la paila is a Bolivian dish from the city of Cochabamba. 
+                        Cochabamba is a beautiful valley surrounded by mountains in the 
+                        centre of Bolivia. Lomo a la paila is made from tender cuts of beef 
+                        called "lomo," which are seasoned and then cooked in a paila, a 
+                        traditional pan often used in Bolivian gastronomy. The beef, onions, 
+                        tomatoes, and sometimes peppers are sautéed separately, their juices combine 
+                        to create a light, flavourful broth. This mixture enhances the dish’s juiciness 
+                        and is perfect for pairing with potatoes, eggs, or bread. Lomo a la paila is popular 
+                        throughout Bolivia as it is a comforting dish that reflects the country’s culinary traditions 
+                        and love for potatoes in their meals.
+                    </p>
+                </div>
+            </div>
+        </header>
+    </div>
+    <main>
+        <div class="p-4">
+            <div class="container-fluid">
+                <h3 class="display-6 fw-bold">Fun fact about Lomo a la paila!</h3>
+                <p>
+                    Lomo a la paila can be enjoyed in many ways, but one thing you’ll 
+                    always see is a Bolivian adding a red sauce on top. This sauce is 
+                    called llajwa, and no self-respecting Bolivian would eat lomo a la 
+                    paila without it. In fact, llajwa is a staple in almost every Bolivian 
+                    dish, some even put it in their soups! Llajwa is a spicy sauce made 
+                    primarily from tomatoes and locotos, a type of Bolivian chilli pepper. 
+                    The level of spiciness can vary from cook to cook, but one thing is certain, 
+                    Bolivians absolutely love it. Find out more about 
+                    <a href="https://en.wikipedia.org/wiki/Llajua" title = "Find more information about llajwa" target="_blank"> llajwa
+                    </a>
+                    here.
+                </p>
+            </div>
+            <div class="container my-5 text-center">
+                <img src="../images/lomo.jpg" class="img-thumbnail" alt="Pucacapa" title="Starter: Pucacapa">
+                <ol>
+                    <li id="listofingredients" class="display-6 fw-bold text-start">
+                        <h4 class="display-6 fw-bold text-start">List of ingredients</h4>
+                        <ul class="fw-normal nd-item">
+                            <li type="disc">
+                                1 ¼ kg of fillet 
+                            </li>
+                            <li type="disc">
+                                3 onions
+                            </li>
+                            <li type="disc">
+                                2 green chillies (locotos)
+                            </li>
+                            <li type="disc">
+                                3 tomatoes
+                            </li>
+                            <li type="disc">
+                                2 kg of Imilla potatoes
+                            </li>
+                            <li type="disc">
+                                6 eggs
+                            </li>
+                            <li type="disc">
+                                Oil as needed
+                            </li>
+                            <li type="disc">
+                                Salt and pepper to taste
+                            </li>
+                        </ul>
+                    </li>
+                    <hr>
+                    <li id="preprep" class="display-6 fw-bold text-start">
+                        <h4 class="display-6 fw-bold text-start">Pre-preparations and tips</h4>
+                        <ul>
+                            <li type="disc">
+                                <div class="fw-bold st-item">
+                                    Set ingredients ready:
+                                </div>
+                                <ul type="circle" class="fw-normal nd-item">
+                                    <li>
+                                        Cut the fillet into 6 thin medallions
+                                    </li>
+                                    <li>
+                                        Peel the onions and slice them into strips
+                                    </li>
+                                    <li>
+                                        Slice the green chillies into strips
+                                    </li>
+                                    <li>
+                                        Deseed the tomatoes and slice them into strips
+                                    </li>
+                                    <li>
+                                        Peel potatoes and cut them into chips
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <hr>
+                    <li id="preparation" class="display-6 fw-bold text-start">
+                        <h4 class="display-6 fw-bold text-start">Preparation</h4>
+                        <ul>
+                            <li type="disc">
+                                <div class="fw-bold st-item">
+                                    Frying the Potatoes
+                                </div>
+                                <ol type="circle" class="fw-normal nd-item">
+                                    <li>
+                                        Place a frying pan over high heat with plenty of oil
+                                    </li>
+                                    <li>
+                                        Fry the potatoes until they are soft and golden.
+                                    </li>
+                                    <li>
+                                        Drain the excess oil and sprinkle with salt. 
+                                    </li>
+                                    <li>
+                                        Repeat this process in batches to ensure the potatoes fry evenly 
+                                        and turn out crispy.
+                                    </li>
+                                </ol>
+                            </li>
+                            <li type="disc">
+                                <div class="fw-bold st-item">
+                                    Preparing the Pans
+                                </div>
+                                <ol type="circle" class="fw-normal nd-item">
+                                    <li>
+                                        Set three frying pans over the heat, 
+                                        each with a little oil. For the eggs, 
+                                        use a bit more oil to prevent sticking.
+                                    </li>
+                                </ol>
+                            </li>
+                            <li type="disc">
+                                <div class="fw-bold st-item">
+                                    Preparing the Eggs
+                                </div>
+                                <ol type="circle" class="fw-normal nd-item">
+                                    <li>
+                                        In one of the pans, fry the eggs over low heat until cooked to your liking.
+                                    </li>
+                                </ol>
+                            </li>
+                        </ul>
+                    </li>
+                    <hr>
+                    <li id="cooking" class="display-6 fw-bold text-start">
+                        <h4 class="display-6 fw-bold text-start">Cooking and plating the dish</h4>
+                        <ul>
+                            <li type="disc">
+                                <div class="fw-bold st-item">
+                                    Grilling the Meat
+                                </div>
+                                <ol type="circle" class="fw-normal nd-item">
+                                    <li>
+                                        In another pan, grill the seasoned meat (salt and pepper) over high heat. 
+                                        The high heat prevents the meat from releasing too much juice, keeping the 
+                                        flavours concentrated inside. This step is essential for achieving a juicy 
+                                        texture and rich taste.
+                                    </li>
+                                </ol>
+                                <div class="fw-bold st-item">
+                                    Cooking the Onion and Tomato
+                                </div>
+                                <ol type="circle" class="fw-normal nd-item">
+                                    <li>
+                                        In the third pan, sauté the onion for a few minutes. Add the tomato and chilli 
+                                        (locoto), season with salt, and fry for a little longer. Remove from the heat 
+                                        once the vegetables are cooked but still firm.
+                                    </li>
+                                </ol>
+                                <div class="fw-bold st-item">
+                                    Plating the Dish
+                                </div>
+                                <ol type="circle" class="fw-normal nd-item">
+                                    <li>
+                                        Start with a portion of fried potatoes as the base.
+                                    </li>
+                                    <li>
+                                        Place the grilled meat on top.
+                                    </li>
+                                    <li>
+                                        Add a fried egg to each serving.
+                                    </li>
+                                    <li>
+                                        Finish with the mixture of onion, tomato, and chilli
+                                    </li>
+                                </ol>
+                            </li>
+                        </ul>
+                    </li> 
+                    <hr> 
+                    <li id="culture" class="display-6 fw-bold text-start">          
+                        <h4 class="display-6 fw-bold text-start">Cultural Importance</h4>
+                        <p class="fw-normal nd-item">
+                            Lomo a la paila forms part of Bolivians' identity. As one of the most well-known dishes 
+                            from Cochabamba, it represents not just the culture of Cochabambinos (people from Cochabamba) 
+                            but also the gastronomy of Bolivia as a whole. Historically, Cochabamba’s fertile valleys 
+                            provided an abundance of high-quality ingredients that inspired the creation of this delicious 
+                            and flavourful dish.
+
+                        </p>
+                    </li>
+                </ol>
+            </div>
+           
+        </div>
+    </main>
+    <footer class="py-4" style="background-color: #6a7f43; font-size: 20px;">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <a 
+                        href="lucero_index.html" class="text-decoration-none text-white mb-0" style="font-family: 'Playfair Display', serif; font-style: italic; font-size: 22px;" title = "Boliva - Bolivian home page" ><img class="d-inline-block align-top" src="../images/bolivia.png" alt="Bolivian flag" width="30" height="30"/>
+                        Bolivian Recipes
+                    </a>
+                    <p>Web design project</p>
+                </div>
+                <div class="col col-lg-3">
+                    <h4 class="text-white">Menu</h4>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="../main-page.html" class="text-decoration-none text-dark" title = "Main home"> 
+                                Home
+                            </a>
+                        </li>
+                        <li>
+                            <a href="lucero_page_1.html"  class="text-decoration-none text-dark" title = "Recipe for a Bolivian starter"> 
+                                Starter
+                            </a>
+                        </li>
+                        <li>
+                            <a href="lucero_page_2.html" class="text-decoration-none text-dark"  title = "Recipe for a Bolivian main dish"> 
+                                Main dish I
+                            </a>
+                        </li>
+                        <li>
+                            <a href="lucero_page_3.html" class="text-decoration-none text-dark"  title = "Recipe for a Bolivian main dish"> 
+                                Main dish II
+                            </a>
+                        </li>
+                        <li>
+                            <a href="lucero_page_4.html" class="text-decoration-none text-dark"  title = "Recipe for a Bolivian dessert"> 
+                                Dessert
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col col-lg-4">
+                    <h4 class="text-white">Repices from other countries</h4>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="../Sections2-Nigeria/index.html"  class="text-decoration-none text-dark" title = "Nigeria - Nigerian recipes"> 
+                                Nigeria
+                            </a>
+                        </li>
+                        <li>
+                            <a href="../Section3-Ireland/irish_home.html"  class="text-decoration-none text-dark" title = "Ireland - Irish recipes"> 
+                                Ireland
+                            </a>
+                        </li>
+                        <li>
+                            <a href="../Section5-Bangladesh/Bangladesh index.html" class="text-decoration-none text-dark"  title = "Blangladesh - Bangladeshi recipes"> 
+                                Bangladesh
+                            </a>
+                        </li>
+                        <li>
+                            <a href="../Section4-Lithuania/domas_index.html" class="text-decoration-none text-dark"  title = "Lithuania - Lithuanian recipes"> 
+                                Lithuania
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col text-lg-end">
+                    <h4 class="text-white">More useful links</h4>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="https://www.natgeokids.com/ie/discover/geography/countries/bolivia-facts/#:~:text=Bolivia's%20landscape,slopes%20and%20snow%2Dcapped%20peaks." class="text-decoration-none text-dark"  title = "Learn about Bolivia"  target="_blank"> 
+                                Information about Bolivia
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.theflavorvortex.com/international-cooking-food-from-bolivia/" class="text-decoration-none text-dark"  title = "Another weboage with other Bolivian recipes"  target="_blank"> 
+                                Get to know more recipies from Bolivia
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.tripadvisor.ie/Attractions-g294071-Activities-Bolivia.html" class="text-decoration-none text-dark"  title = "Things to do in Bolivia"  target="_blank"> 
+                                Things to do in Bolivia
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <div class="d-flex justify-content-bteween">
+                <p>
+                    © 2024 Bolivian recipes - Lucero Sangueza. All rights reserved.
+                </p>
+            </div>
+        </div>
+     
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
